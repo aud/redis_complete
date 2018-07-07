@@ -1,3 +1,5 @@
+This is definitely not meant to be used by anyone. Just some example.
+
 Given a wordlist seperated by `\n`, this will attempt to traverse through the list and `ZADD` [1] each item to the index with an initial frequency of 1. If the command `EXISTS` [2] returns true for the key, this step is redundant and will be skipped.
 
 ```
